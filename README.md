@@ -1,29 +1,54 @@
-# template-vite-react-tailwind-v3
+# React Tailwindcss Boilerplate build with Vite
 
-- **template of:** vite + react
-- **tailwindcss:** v3.x
+This is a [ReactJS](https://reactjs.org) + [Vite](https://vitejs.dev) boilerplate to be used with [Tailwindcss](https://tailwindcss.com).
 
-## Started
+## What is inside?
+
+This project uses many tools like:
+
+- [ReactJS](https://reactjs.org)
+- [Vite](https://vitejs.dev)
+- [Testing Library](https://testing-library.com)
+- [Tailwindcss](https://tailwindcss.com)
+- [Eslint](https://eslint.org)
+- [Prettier](https://prettier.io)
+
+## Getting Started
+
+### Install
+
+Create the project.
+
 ```bash
-yarn
-# or `npm install`
+git clone git@github.com:jakubowskimaciej/vite-boilerplate.git
 ```
 
----
-## Develop
+Access the project directory.
+
 ```bash
-yarn dev
-# or `npm run dev`
+cd my-app
 ```
 
----
-## Build
+Install dependencies.
+
 ```bash
-yarn build
-# or `npm run build`
+npm install
 ```
 
----
-<p align="center">
-<img src="./powered-by-vitawind-bright.png">
-</p>
+Serve with hot reload at <http://localhost:3000>.
+
+```bash
+npm run dev
+```
+
+### Build
+
+```bash
+npm run build
+```
+
+### Test
+
+```bash
+npm run test
+```
