@@ -3,6 +3,8 @@ const theme = {
     white: '#fff',
     success: '#00BFA6',
     danger: '#dc3545',
+    lightBlue: '#dae1f0',
+    blue: '#158eff',
     lightGrey: '#c0c7d6',
     grey: '#737C8E',
     darkGrey: '#37474f',
@@ -20,10 +22,11 @@ const theme = {
   },
 
   mediaQueries: {
-    tablet: '@media (min-width: 768px)',
-    desktop: '@media (max-width: 1024px)',
+    tablet: '@media (max-width: 768px)',
+    desktop: '@media (min-width: 1024px)',
     bigDesktop: '@media (min-width: 1280px)',
     huge: '@media(min-width: 1440px)',
+    ultra: '@media(min-width: 2048px)',
   },
 };
 

@@ -22,6 +22,8 @@ export default createGlobalStyle`
       --color-white: ${({ theme }) => theme.colors.white};
       --color-success: ${({ theme }) => theme.colors.success};
       --color-danger: ${({ theme }) => theme.colors.danger};
+      --color-lightBlue: ${({ theme }) => theme.colors.lightBlue};
+      --color-blue: ${({ theme }) => theme.colors.blue};
       --color-lightGrey: ${({ theme }) => theme.colors.lightGrey};
       --color-grey: ${({ theme }) => theme.colors.grey};
       --color-darkGrey: ${({ theme }) => theme.colors.darkGrey};
